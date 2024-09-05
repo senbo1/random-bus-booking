@@ -82,7 +82,7 @@ const BusSeatBooking = () => {
                 <AlertDialogTitle>Seat {index + 1}</AlertDialogTitle>
                 <AlertDialogDescription>
                   {isBooked
-                    ? 'This seat is booked. Click to cancel the booking.'
+                    ? 'Booked your seat. Click to cancel the booking.'
                     : 'This seat is available. Click to book.'}
                 </AlertDialogDescription>
               </AlertDialogHeader>
